@@ -50,8 +50,16 @@ Create a partial with the contents
         }).show();
       });
 ```
-Render the partial on your layout within the <head> tag, after your javascript and CSS have been included.
+Render the partial in your layout with the `<head>` tag, after your javascript and CSS have been included.
 
 ```ruby
 = render(:partial => "partials/notify")
+```
+
+Don't forget to include the div to attach the notification to:
+```html
+<div class="notification">
+  <div class="top-right">
+  </div>
+</div>
 ```
