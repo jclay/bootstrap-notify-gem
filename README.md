@@ -42,6 +42,7 @@ Quick and Dirty style:
 Create a partial with the contents
 
 ```ruby
+  # app/views/partials/_notify.html.haml
   - if !notice.blank?
     :javascript
       $(document).ready(function () {
@@ -53,13 +54,15 @@ Create a partial with the contents
 Render the partial in your layout with the `<head>` tag, after your javascript and CSS have been included.
 
 ```ruby
-= render(:partial => "partials/notify")
+  # app/views/layouts/application.html.haml
+  = render(:partial => "partials/notify")
 ```
 
 Don't forget to include the div to attach the notification to:
 
 ```
-.notifications.top-right
+  # app/views/layouts/application.html.haml
+  .notifications.top-right
 ```
 
 Additional configuration and placement options can be found at:
