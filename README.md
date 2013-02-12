@@ -17,7 +17,7 @@ Requirements:
 Add it to your Gemfile:
 
 ```ruby
-gem 'bootstrap_notify'
+gem 'bootstrap_notify', :git => "https://github.com/jclay/bootstrap-notify-gem.git"
 ```
 
 Include the javascripts in application.js. Make sure to include **after** jQuery:
@@ -57,9 +57,11 @@ Render the partial in your layout with the `<head>` tag, after your javascript a
 ```
 
 Don't forget to include the div to attach the notification to:
-```html
-<div class="notification">
-  <div class="top-right">
-  </div>
-</div>
+
 ```
+.notifications.top-right
+```
+
+Additional configuration and placement options can be found at:
+http://goodybag.github.com/bootstrap-notify
+
