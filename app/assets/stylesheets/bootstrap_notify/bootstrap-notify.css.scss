@@ -7,32 +7,29 @@
  * @copyright 2013 Nijiko Yonskai
  */
 
-$right: 10px;
-$left: $right;
-$top: 50px;
-$bottom: $top;
+ @import "variables";
 
 .notifications {
   position: fixed;
 
   &.top-right {
-    right: $right;
-    top: $top;
+    right: $notify_right;
+    top: $notify_top;
   }
 
   &.top-left {
-    left: $left;
-    top: $top;
+    left: $notify_left;
+    top: $notify_top;
   }
 
   &.bottom-left {
-    left: $left;
-    bottom: $bottom;
+    left: $notify_left;
+    bottom: $notify_bottom;
   }
 
   &.bottom-right {
-    right: $right;
-    bottom: $bottom;
+    right: $notify_right;
+    bottom: $notify_bottom;
   }
 
   > div {
