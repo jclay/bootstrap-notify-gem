@@ -36,7 +36,6 @@ Import the SCSS after you import bootstrap:
 ```
 
 ## Implementation
-
 Quick and Dirty style:
 
 Create a partial with the contents
@@ -68,3 +67,13 @@ Don't forget to include the div to attach the notification to:
 Additional configuration and placement options can be found at:
 http://goodybag.github.com/bootstrap-notify
 
+## Customizing Placement
+You can offset the placement of the notification by adjusting the top, bottom, left or right variables.
+
+```
+$notify_right: 100px;
+$notify_left: $notify_right;
+$notify_top: 500px;
+$notify_bottom: $notify_top;
+@import "bootstrap_notify";
+```
