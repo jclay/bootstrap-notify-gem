@@ -7,17 +7,15 @@ require "bootstrap_notify/version"
 Gem::Specification.new do |s|
   s.name        = "bootstrap_notify"
   s.version     = BootstrapNotify::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of BootstrapNotify."
-  s.description = "TODO: Description of BootstrapNotify."
+  s.authors     = ["Joel Clay"]
+  s.email       = ["ra3don92@gmail.com"]
+  s.summary     = "BootstrapNotify makes it easy to drop in beautiful flash notifications in Rails!"
+  s.version     = "1.0.0"
+  # s.description = "TODO: Description of BootstrapNotify."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.files = Dir["{app,config,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 3.2.8"
   s.add_dependency "bootstrap-sass"
-  # s.add_dependency "jquery-rails"
-
+  s.add_dependency "jquery-rails"
 end
