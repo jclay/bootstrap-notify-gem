@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Joel Clay"]
   s.email       = ["ra3don92@gmail.com"]
   s.summary     = "BootstrapNotify makes it easy to drop in beautiful flash notifications in Rails!"
-  s.version     = "1.0.0"
+  s.version     = "1.0.1"
   # s.description = "TODO: Description of BootstrapNotify."
 
   s.files = Dir["{app,config,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
