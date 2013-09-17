@@ -1,6 +1,6 @@
-# BootstrapNotify - Rails notifications made easy.
+# Bootstrap Notify - Rails notifications made easy.
 
-**BootstrapNotify** aims to be a simple notification system that you can easily drop into your rails project for nice looking notify flashes. 
+**BootstrapNotify** aims to be a simple notification system that you can easily drop into your Rails project for nice looking notify flashes. 
 BootstrapNotify is based off of bootstrap-notify by user goodybag http://goodybag.github.com/bootstrap-notify/
 
 You can see a demo at:
